@@ -26,7 +26,7 @@ Use 3 dupont connectors to connect the adapter to the following pins on the Maci
 
 - TERMPWR: pin 26 - provides power to the adapter. Connect to TPWR on the adapter.
 - GND: there are lots of ground pins. Just pick one, like pin 28 which is right next to TERMPWR. Connect to GND on the adapter.
-- /BSY: this signal is low when the SCSI bus is in use, and high when the bus is free. Connect to BSY on the adapter.
+- /BSY: pin 36 - this signal is low when the SCSI bus is in use, and high when the bus is free. Connect to BSY on the adapter.
 
 <img alt="connecting to the SCSI port" src="images/connect1.jpg">
 
