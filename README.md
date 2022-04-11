@@ -12,9 +12,11 @@ Submit the gerbers under the gerbers/ directory to your favorite PCB manufacture
 
 A BOM is in the [bom.csv](bom.csv) file, consisting of:
 
-- 74LVC1G14 Schmitt trigger logic inverter. I've specifically chosen the Nexperia 74LVC1G14GV,125 because the trigger voltages in its datasheet match the best with SCSI logic level.
+- 74LVC1G14 Schmitt trigger logic inverter. I've specifically chosen the Nexperia 74LVC1G14GV,125 because the trigger voltages in its datasheet match the best with SCSI logic levels.
 - 2- and 3-pin headers. The 2-pin header is keyed so it fits perfectly with the HD LED connector on the Macintosh SE and SE/30 in the proper orientation.
 - One 150 ohm 1206 SMT resistor to limit current to the LED.
+
+Soldering the SMT components shouldn't be too hard even if you don't have SMT soldering experience. Just use plenty of flux, place the parts, and touch the pads with a soldering iron coated with solder.
 
 ## Connecting the adapter ##
 
@@ -26,11 +28,19 @@ Use 3 dupont connectors to connect the adapter to the following pins on the Maci
 - GND: there are lots of ground pins. Just pick one, like pin 28 which is right next to TERMPWR. Connect to GND on the adapter.
 - /BSY: this signal is low when the SCSI bus is in use, and high when the bus is free. Connect to BSY on the adapter.
 
+<img alt="connecting to the SCSI port" src="images/connect1.jpg">
+
 ### 2. Connect the HD activity LED ###
 
 This should plug right in if you're using the LED connector on the Macintosh SE and SE/30.
 
+<img alt="connecting the activity LED" src="images/connect2.jpg">
+
 ### 4. Watch the blinkenlights! ###
+
+Mount the adapter with some double-sided tape so the bottom doesn't short out on the computer's chassis. Turn it on and hopefully you will have a nicely blinking activity LED!
+
+<img alt="GIF of blinking hard drive light" src="images/blinkenlights.gif">
 
 ## License ##
 
