@@ -8,7 +8,7 @@ This adapter has been tested on a Macintosh SE and Macintosh SE/30. Your mileage
 
 ## Making the board ##
 
-Submit the gerbers under the gerbers/ directory to your favorite PCB manufacturer. I made mine at [OSH Park](https://oshpark.com).
+Submit the gerbers under the gerbers/ directory to your favorite PCB manufacturer. I made mine at [OSH Park](https://oshpark.com/shared_projects/9X7GausD). You can order at that link and as of the time of writing this README, it's only $1.20 for three PCBs!
 
 A BOM is in the [bom.csv](bom.csv) file, consisting of:
 
