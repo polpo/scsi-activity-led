@@ -1,0 +1,5 @@
+﻿Index,Manufacturer Part Number,Manufacturer Name,Description,Availability,Stock Status,Attrition %,Requested Quantity 1,Pack Quantity 1,Pack Type 1,Digi-Key Part Number 1,Unit Price 1,Extended Price 1,Minimum Order Quantity 1,Requested Part Number,Datasheet
+1,"74LVC1G14GV,125",Nexperia USA Inc.,IC INVERT SCHMITT 1CH 1-IN SC74A,"2,155",In Stock,,1,1,Cut Tape (CT),1727-4116-1-ND,0.37000,$0.37,1,1727-4116-1-ND,https://assets.nexperia.com/documents/data-sheet/74LVC1G14.pdf
+2,RMCF1206JT150R,Stackpole Electronics Inc,RES 150 OHM 5% 1/4W 1206,"443,342",In Stock,,1,1,Cut Tape (CT),RMCF1206JT150RCT-ND,0.10000,$0.10,1,RMCF1206JT150RCT-ND,https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf
+3,LHA-02-TRB,Adam Tech,CONN HEADER R/A 2POS 2.54MM,"5,796",In Stock,,1,1,Bag,2057-LHA-02-TRB-ND,0.10000,$0.10,1,2057-LHA-02-TRB-ND,https://app.adam-tech.com/products/download/data_sheet/241186/lha-xx-trb-data-sheet.pdf
+4,LHA-03-TRB,Adam Tech,CONN HEADER R/A 3POS 2.54MM,"3,975",In Stock,,1,1,Bag,2057-LHA-03-TRB-ND,0.15000,$0.15,1,2057-LHA-03-TRB-ND,https://app.adam-tech.com/products/download/data_sheet/241186/lha-xx-trb-data-sheet.pdf
