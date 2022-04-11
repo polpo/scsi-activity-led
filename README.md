@@ -1,10 +1,10 @@
 # SCSI activity LED adapter #
 
-Do you use a [BlueSCSI](https://github.com/erichelgeson/bluescsi) externally on your classic Macintosh? Do you wish the little hard drive activity light still flashed when using it? This adapter will make that happen.
+Do you use a [BlueSCSI](https://github.com/erichelgeson/bluescsi) externally on your classic Macintosh? Do you wish the little hard drive activity light on the Mac still flashed when using it? This adapter will make that happen.
 
 <img alt="assembled SCSI activity LED adapter" src="images/assembled.jpg">
 
-This adapter has been tested on an Macintosh SE and Macintosh SE/30. Your mileage may vary with other computers.
+This adapter has been tested on a Macintosh SE and Macintosh SE/30. Your mileage may vary with other computers.
 
 ## Making the board ##
 
@@ -41,6 +41,10 @@ This should plug right in if you're using the LED connector on the Macintosh SE 
 Mount the adapter with some double-sided tape so the bottom doesn't short out on the computer's chassis. Turn it on and hopefully you will have a nicely blinking activity LED!
 
 <img alt="GIF of blinking hard drive light" src="images/blinkenlights.gif">
+
+## TODO ##
+
+- Design a foolproof version of the adapter that plugs directly into a 50-pin internal SCSI connector.
 
 ## License ##
 
