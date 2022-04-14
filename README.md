@@ -45,6 +45,7 @@ Mount the adapter with some double-sided tape so the bottom doesn't short out on
 ## TODO ##
 
 - Design a foolproof version of the adapter that plugs directly into a 50-pin internal SCSI connector.
+- Investigate how appropriate other signals on the SCSI bus are for activity lights. I've noticed that when no SCSI devices are connected, the Mac's SCSI controller toggles /BSY continuously, which is annoying.
 
 ## License ##
 
